@@ -52,7 +52,7 @@ public class GameController implements IGameController {
         addViewToGameView(input);
         bedTimes  = new ArrayList<>();
         names = new ArrayList<>();
-        isSinglePlayerMode = true;
+        isSinglePlayerMode = false;
     }
 
     /**
